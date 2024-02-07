@@ -61,7 +61,7 @@ const About = () => {
             </motion.svg>
           </div>
           {/* Skill container */}
-          <div>
+          <div className="flex flex-col gap-12 justify-center">
             <h1 className="font-bold text-2xl">SKILLS</h1>
             <div className="flex gap-4 flex-wrap">
               <div className="p-2 rounded bg-black text-sm cursor-pointer text-white hover:bg-white hover:text-black">
