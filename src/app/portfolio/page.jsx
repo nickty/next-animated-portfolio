@@ -1,7 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
-
-const About = () => {
+const Portfolio = () => {
   return (
     <motion.div
       className="h-full"
@@ -9,9 +8,9 @@ const About = () => {
       animate={{ y: "0%" }}
       transition={{ duration: 1 }}
     >
-      About
+      Contact
     </motion.div>
   );
 };
 
-export default About;
+export default Portfolio;
