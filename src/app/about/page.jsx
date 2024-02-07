@@ -112,7 +112,25 @@ const About = () => {
               ></path>
             </motion.svg>
           </div>
-          <div>Experience</div>
+          <div className="flex flex-col gap-12 justify-center pb-48">
+            <h1 className="font-bold text-2xl">EXPERIENCE</h1>
+            <div className="">
+              <div className="">
+                <div className="">
+                  <div className="">Senior Software Engineer</div>
+                  <div className="">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing.
+                  </div>
+                  <div className="">2023 - Present</div>
+                  <div className="">Arogga LTD</div>
+                </div>
+              </div>
+              {/* line */}
+              <div className="">
+                <div className=""></div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </motion.div>
